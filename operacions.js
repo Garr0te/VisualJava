@@ -5,3 +5,7 @@ function ordenar_per_nom(llista){
     llista.sort(((a, b) => (a.nom > b.nom) ? 1 :-1))
     return llista
 }
+
+module.exports = {
+    ordenar_per_nom
+}
