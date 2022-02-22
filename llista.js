@@ -15,3 +15,4 @@ alumnesPerData = [
     {'nom': 'Pedro Pasqua', 'data_naiximent': '10-02-2003'},
     {'nom': 'Rafa Nadal', 'data_naiximent': '09-02-2005'}
 ]
+module.exports = { alumnes, alumnesPerNom, alumnesPerData };
