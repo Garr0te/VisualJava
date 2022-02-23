@@ -10,12 +10,12 @@ describe(" Test ordenar per Nom", function() {
     it("Ordenar per Nom EXPECT", function() {
       expect(funcions.ordenar_per_nom(llista.alumnes)).to.eql(llista.alumnesPerNom)
     })
-
+  });
+});
+/*
   it("Test ordenar per Data ", function() {
           for (var i = 0; i < llista.alumnes.length; i++) {
             assert.equal(funcions.ordenar_per_data(llista.alumnes)[i]['nom'], llista.alumnesPerData[i]['nom'])
   }  
   });
-
-  });
-});
+*/
