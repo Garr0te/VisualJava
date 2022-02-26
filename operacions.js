@@ -1,4 +1,4 @@
-const moment = require('moment')
+/*const moment = require('moment')*/
 const dades = require('./llista')
 
 function ordenar_per_nom(llista){
